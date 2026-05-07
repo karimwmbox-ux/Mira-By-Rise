@@ -1,0 +1,40 @@
+{
+  "name": "rise-ads-kpi-analyzer-&-recommender",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "start": "node server.ts",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^1.34.0",
+    "axios": "^1.13.6",
+    "cookie-session": "^2.1.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "framer-motion": "^12.36.0",
+    "google-auth-library": "^10.6.2",
+    "googleapis": "^171.4.0",
+    "html2canvas": "1.4.1",
+    "jspdf": "2.5.1",
+    "jspdf-autotable": "^5.0.2",
+    "lucide-react": "^0.577.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-markdown": "^10.1.0",
+    "recharts": "^3.6.0",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/cookie-session": "^2.0.49",
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
